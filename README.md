@@ -26,6 +26,54 @@ It can be used to interface with our LSM303DLHC breakout board: http://www.drone
     SDA       ->  PB0
     SCL       ->  PB2
     
+### Instalation 
+
+Add the folder Tiny_LSM303 to the Arduino IDE Libraries folder.
+    
+### Code Examples description
+
+---
+
+### TinyHeading
+
+Sends the current heading to the serial port using TinyDebugSerial
+
+    Wiring
+    Attiny85
+    PB3     ->  Serial TX 
+    PB0     ->  SDA 
+    PB2     ->  SCL
+    
+*note: since it uses the TinyDebugSerial it can only be used with the tiny-core
+    
+### TinySerialData
+
+Sends raw and filtered accelerometer data to serial port in csv format
+
+    Wiring
+    Attiny85
+    PB3     ->  Serial TX 
+    PB0     ->  SDA 
+    PB2     ->  SCL
+    
+*note: since it uses the TinyDebugSerial it can only be used with the tiny-core
+    
+### TinyStabilizer
+
+Drives two micro servos compensating the pitch and roll of the board. 
+
+It uses only accelerometer data with a low pass filter. Slow and noisy but effective.
+
+    Wiring
+    Attiny85
+    PB3     ->  Servo
+    PB1     ->  Servo
+    PB0     ->  SDA 
+    PB2     ->  SCL
+    
+*note: this example requires de Servo8bit library available here: https://github.com/fri000/Servo8Bit
+
+    
     
 
 
