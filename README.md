@@ -48,7 +48,7 @@ Sends the current heading to the serial port using TinyDebugSerial
     
 ### TinySerialData
 
-Sends raw and filtered accelerometer data to serial port in csv format
+Sends raw and filtered accelerometer data to serial port in csv format.
 
     Wiring
     Attiny85
@@ -57,6 +57,7 @@ Sends raw and filtered accelerometer data to serial port in csv format
     PB2     ->  SCL
     
 *note: since it uses the TinyDebugSerial it can only be used with the tiny-core
+*note2: it can be visualized with the DTSerialChart available here: https://github.com/Dronetech/DTSerialChart
     
 ### TinyStabilizer
 
