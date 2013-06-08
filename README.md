@@ -40,7 +40,7 @@ Sends the current heading to the serial port using TinyDebugSerial
 
     Wiring
     Attiny85
-    PB3     ->  Serial TX 
+    PB3     ->  Serial RX 
     PB0     ->  SDA 
     PB2     ->  SCL
     
@@ -52,7 +52,7 @@ Sends raw and filtered accelerometer data to serial port in csv format
 
     Wiring
     Attiny85
-    PB3     ->  Serial TX 
+    PB3     ->  Serial RX 
     PB0     ->  SDA 
     PB2     ->  SCL
     
