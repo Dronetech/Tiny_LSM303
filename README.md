@@ -28,7 +28,7 @@ It can be used to interface with our LSM303DLHC breakout board: http://www.drone
     
 ### Instalation 
 
-Add the folder Tiny_LSM303 to the Arduino IDE Libraries folder.
+Unzip this folder to the Arduino Libraries folder. 
     
 ### Code Examples description
 
